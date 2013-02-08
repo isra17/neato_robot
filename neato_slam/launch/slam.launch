@@ -1,0 +1,7 @@
+<launch>
+  <param name="use_sim_time" value="false"/>
+
+  <include file="$(find neato_slam)/launch/bringup.launch" />
+
+  <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" args="scan:=base_scan _srr:=0.001 _srt:=0.001 _str:=0.000001 _stt:=0.000001 _linearUpdate:=0.5 _angularUpdate:=0.4" />
+</launch>

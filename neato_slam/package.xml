@@ -1,0 +1,14 @@
+<package>
+  <name>neato_slam</name>
+  <version>0.2.0</version>
+  <description>
+    This package contains configuration and launch files for using the navigation stack and gmapping with the Neato XV-11 robot.
+  </description>
+  <author>Israel Halle</author>
+  <maintainer email="isra017@gmail.com">Israel Halle</maintainer>
+  <license>BSD</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>neato_node</run_depend>
+</package>
