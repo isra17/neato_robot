@@ -2,7 +2,7 @@
 <robot name="neato_xv11">
 	<link name="base_link">
 	  <visual>
-	    <origin xyz="0 0 0" rpy="0 0 0" />
+	    <origin xyz="0 0 0" rpy="0 0 0.7853981633974483" />
 	    <geometry>
 	      <mesh filename="package://neato_urdf/meshes/R8robotModel.dae" scale="0.001 0.001 0.001"/>
 	    </geometry>
