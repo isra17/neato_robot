@@ -6,6 +6,9 @@
 	    <geometry>
 	      <mesh filename="package://neato_urdf/meshes/R8robotModel.dae" scale="0.001 0.001 0.001"/>
 	    </geometry>
+	    <material name="white">
+	      <color rgba="0 1 0 1"/>
+	    </material>
 	  </visual>
 	</link>
 	<link name="base_laser_link">
