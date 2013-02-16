@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="neato_xv11">
+	<link name="base_link">
+	  <visual>
+	    <origin xyz="0 0 0" rpy="0 0 0" />
+	    <geometry>
+	      <mesh filename="package://neato_urdf/meshes/R8robotModel.dae" scale="0.001 0.001 0.001"/>
+	    </geometry>
+	  </visual>
+	</link>
+	<link name="base_laser_link">
+	</link>
+
+	<joint name="lidar_joint" type="continuous">
+		<parent link="base_link"/>
+		<child link="base_laser_link"/>
+		<origin xyz="-0.1016 0 0.0889" rpy="0 0 0"/>
+	</joint>
+</robot>

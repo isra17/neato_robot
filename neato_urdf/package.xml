@@ -1,0 +1,12 @@
+<package>
+  <name>neato_urdf</name>
+  <version>0.2.0</version>
+  <description>
+    This package contain URDF file for the neato.
+  </description>
+  <author>Israel Halle</author>
+  <maintainer email="isra017@gmail.com">Israel Halle</maintainer>
+  <license>BSD</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
